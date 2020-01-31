@@ -15,8 +15,8 @@ ActivityTest  <- read.table(file.path(UCIdata, "test" , "Y_test.txt" ),header = 
 ActivityTrain <- read.table(file.path(UCIdata, "train", "Y_train.txt"),header = FALSE)
 
 #Read the Subject files
-SubjectTrain <- read.table(file.path(UCIdata, "train", "subject_train.txt"),header = FALSE)
 SubjectTest  <- read.table(file.path(UCIdata, "test" , "subject_test.txt"),header = FALSE)
+SubjectTrain <- read.table(file.path(UCIdata, "train", "subject_train.txt"),header = FALSE)
 
 #Read the Features files
 FeaturesTest  <- read.table(file.path(UCIdata, "test" , "X_test.txt" ),header = FALSE)
