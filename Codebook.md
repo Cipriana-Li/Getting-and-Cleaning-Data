@@ -52,6 +52,7 @@ Time-domain signals (variables prefixed by timeDomain), resulting from the captu
 Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
 
 Time-domain signals
+
 -Average time-domain body acceleration in the X, Y and Z directions:
 
 timeDomainBodyAccelerometerMeanX
